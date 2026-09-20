@@ -1,0 +1,28 @@
+# Core & Data Structures
+pydantic>=2.7.0
+python-dotenv>=1.0.1
+numpy>=1.26.0
+pandas>=2.2.0
+pillow>=10.3.0
+pdfplumber>=0.11.0
+pypdf>=4.2.0
+
+# Retrieval & Search
+rank-bm25>=0.2.2
+sentence-transformers>=3.0.0
+torch>=2.2.0
+transformers>=4.40.0
+colpali-engine>=0.3.0
+faiss-cpu>=1.8.0
+
+# Generation & Verification
+sympy>=1.12.0
+matplotlib>=3.8.0
+
+# Web Interface & Visualization
+streamlit>=1.35.0
+
+# Testing & Linting
+pytest>=8.2.0
+pytest-cov>=5.0.0
+ruff>=0.4.0
