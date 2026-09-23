@@ -1,0 +1,321 @@
+{
+  "sample_size": 15,
+  "avg_exact_match": 0.0667,
+  "avg_token_f1": 0.0292,
+  "avg_numeric_match": 0.0667,
+  "verification_summary": {
+    "total_claims": 16,
+    "supported_claims": 10,
+    "contradicted_claims": 0,
+    "not_supported_claims": 6,
+    "claim_support_rate": 0.625,
+    "claim_contradiction_rate": 0.0,
+    "claim_unsupported_rate": 0.375,
+    "average_factual_consistency": 0.6
+  },
+  "abstention_summary": {
+    "total_evaluated": 15,
+    "accepted_count": 4,
+    "abstained_count": 11,
+    "abstention_rate": 0.7333,
+    "reasons_breakdown": {
+      "IRRELEVANT_ANSWER": 5,
+      "INSUFFICIENT_EVIDENCE": 6
+    }
+  },
+  "avg_latency_ms": 1930.51,
+  "samples": [
+    {
+      "question_uid": "15e4d550e10a33bb0402bebb5b791458",
+      "doc_uid": "637fab7088ea6c78a5dba55f17e833bd",
+      "question": "What was the total assets from AMER in 2018?",
+      "gold_answer": [
+        "645,791"
+      ],
+      "prediction": "Based on the provided financial disclosures, in 2018 Total assets: [Doc: 637fab7088ea6c78a5dba55f17e833bd, Page: 1].",
+      "final_answer": "I couldn't verify this answer from the available document evidence.",
+      "is_abstained": true,
+      "abstention_reason": "IRRELEVANT_ANSWER",
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "numeric_match": 0.0,
+      "supported_claims": 1,
+      "contradicted_claims": 0,
+      "not_supported_claims": 0,
+      "factual_consistency": 1.0
+    },
+    {
+      "question_uid": "f1308165d026afa3f5c564a70de2a7eb",
+      "doc_uid": "22be2fdb6d29626851b25f7a53fada57",
+      "question": "What are the two license agreements for the currently marketed products?",
+      "gold_answer": [
+        "the Oxaydo product containing the Aversion Technology has been licensed to Zyla",
+        "the Nexafed products containing the Impede Technology which have been licensed to MainPointe."
+      ],
+      "prediction": "The provided evidence does not contain sufficient information to answer this question.",
+      "final_answer": "I couldn't verify this answer from the available document evidence.",
+      "is_abstained": true,
+      "abstention_reason": "INSUFFICIENT_EVIDENCE",
+      "exact_match": 0.0,
+      "token_f1": 0.0952,
+      "numeric_match": 0.0,
+      "supported_claims": 0,
+      "contradicted_claims": 0,
+      "not_supported_claims": 1,
+      "factual_consistency": 0.0
+    },
+    {
+      "question_uid": "8920cf2daa5d9c7ad0c951a9278e89be",
+      "doc_uid": "c9a90a9fcd85be9a6c273b539cd53163",
+      "question": "Which years does the table provide information for the related party items included in Revenues?",
+      "gold_answer": [
+        "2019",
+        "2018",
+        "2017"
+      ],
+      "prediction": "Based on the provided financial disclosures, Total related party revenues $59.5 $57.6 $56.8 [Doc: c9a90a9fcd85be9a6c273b539cd53163, Page: 1].",
+      "final_answer": "Based on the provided financial disclosures, Total related party revenues $59.5 $57.6 $56.8 [Doc: c9a90a9fcd85be9a6c273b539cd53163, Page: 1].",
+      "is_abstained": false,
+      "abstention_reason": null,
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "numeric_match": 0.0,
+      "supported_claims": 1,
+      "contradicted_claims": 0,
+      "not_supported_claims": 0,
+      "factual_consistency": 1.0
+    },
+    {
+      "question_uid": "72a0d957bd35bb20239aa14da1df1ba3",
+      "doc_uid": "484d5ab2adc070a942f822421537bb3b",
+      "question": "What does the table show?",
+      "gold_answer": [
+        "As of December 31, 2019 and 2018, loans payable"
+      ],
+      "prediction": "The provided evidence does not contain sufficient information to answer this question.",
+      "final_answer": "I couldn't verify this answer from the available document evidence.",
+      "is_abstained": true,
+      "abstention_reason": "INSUFFICIENT_EVIDENCE",
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "numeric_match": 0.0,
+      "supported_claims": 0,
+      "contradicted_claims": 0,
+      "not_supported_claims": 1,
+      "factual_consistency": 0.0
+    },
+    {
+      "question_uid": "e58ac35e5464b384d30262b3679533c1",
+      "doc_uid": "d33382e9889d93bb77bc18a7d5c2358e",
+      "question": "What does shareholder distributions - dividends in the table represent?",
+      "gold_answer": [
+        "Represents dividends paid in each financial year"
+      ],
+      "prediction": "The provided evidence does not contain sufficient information to answer this question.",
+      "final_answer": "I couldn't verify this answer from the available document evidence.",
+      "is_abstained": true,
+      "abstention_reason": "INSUFFICIENT_EVIDENCE",
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "numeric_match": 0.0,
+      "supported_claims": 0,
+      "contradicted_claims": 0,
+      "not_supported_claims": 1,
+      "factual_consistency": 0.0
+    },
+    {
+      "question_uid": "ac543087b7cc0bc8ab7cc531f117e33f",
+      "doc_uid": "2f7d749e5b10203f268b5c1ef8f54a6b",
+      "question": "What are the respective APRU from on-net in 2017 and 2018 respectively?",
+      "gold_answer": [
+        "$ 506",
+        "$ 480"
+      ],
+      "prediction": "Based on the provided financial disclosures, The following table presents the unaudited pro forma financial results as if the 2019 acquisitions had occurred on January 1, 2018 and the 2018 acquisitions had occurred on January 1, 2017 [Doc: 1bc7290342bd0f4cc0a151c27ab69a8d, Page: 1].",
+      "final_answer": "I couldn't verify this answer from the available document evidence.",
+      "is_abstained": true,
+      "abstention_reason": "IRRELEVANT_ANSWER",
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "numeric_match": 0.0,
+      "supported_claims": 1,
+      "contradicted_claims": 0,
+      "not_supported_claims": 0,
+      "factual_consistency": 1.0
+    },
+    {
+      "question_uid": "fbd47d373468c835a9bb365074af8b19",
+      "doc_uid": "28b843dd15fa99919296ccee8e2469ef",
+      "question": "What is the % change in the capital intensity ratio for BCE?",
+      "gold_answer": [
+        "0.3 pts"
+      ],
+      "prediction": "Based on the provided financial disclosures, the change was 17 [Doc: 28b843dd15fa99919296ccee8e2469ef, Page: 1].",
+      "final_answer": "I couldn't verify this answer from the available document evidence.",
+      "is_abstained": true,
+      "abstention_reason": "IRRELEVANT_ANSWER",
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "numeric_match": 0.0,
+      "supported_claims": 1,
+      "contradicted_claims": 0,
+      "not_supported_claims": 0,
+      "factual_consistency": 1.0
+    },
+    {
+      "question_uid": "4486b715a52e3d545a06714e47d75a7b",
+      "doc_uid": "1bcc157b8f0fb5225f4f574489e4c8a1",
+      "question": "What are the respective goodwill at 2018 and 2019?",
+      "gold_answer": [
+        "$ 3,178",
+        "$ 3,178"
+      ],
+      "prediction": "Based on the provided financial disclosures, Depreciation for the years ended June 30, 2019, 2018 and 2017 was $108.1 million, $104.7 million and $105.8 million, respectively. [Doc: a4efce3956a7090938f1fc213ebfc40f, Page: 1].",
+      "final_answer": "I couldn't verify this answer from the available document evidence.",
+      "is_abstained": true,
+      "abstention_reason": "IRRELEVANT_ANSWER",
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "numeric_match": 0.0,
+      "supported_claims": 2,
+      "contradicted_claims": 0,
+      "not_supported_claims": 0,
+      "factual_consistency": 1.0
+    },
+    {
+      "question_uid": "9e3547e9fa6ea1ebd5e33d4cc13cd494",
+      "doc_uid": "8c030fa477c7b599077d076bcb5b0e13",
+      "question": "When are trade payables paid?",
+      "gold_answer": [
+        "within 30 days of recognition."
+      ],
+      "prediction": "The provided evidence does not contain sufficient information to answer this question.",
+      "final_answer": "I couldn't verify this answer from the available document evidence.",
+      "is_abstained": true,
+      "abstention_reason": "INSUFFICIENT_EVIDENCE",
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "numeric_match": 0.0,
+      "supported_claims": 0,
+      "contradicted_claims": 0,
+      "not_supported_claims": 1,
+      "factual_consistency": 0.0
+    },
+    {
+      "question_uid": "c8495e802204f9dedbf0be6a56b8cc5f",
+      "doc_uid": "8c79671b7ad782c9d32167f2c04a1af5",
+      "question": "How is the basic net income per share computed?",
+      "gold_answer": [
+        "by dividing net income by the weighted-average number of common shares outstanding during the period"
+      ],
+      "prediction": "Based on the provided financial disclosures, Note 3 – Net Income per Share The following table sets forth the computation of basic and diluted earnings per share: [Doc: 057149f07d2fad98ce7387e82475f309, Page: 1].",
+      "final_answer": "Based on the provided financial disclosures, Note 3 – Net Income per Share The following table sets forth the computation of basic and diluted earnings per share: [Doc: 057149f07d2fad98ce7387e82475f309, Page: 1].",
+      "is_abstained": false,
+      "abstention_reason": null,
+      "exact_match": 0.0,
+      "token_f1": 0.1463,
+      "numeric_match": 0.0,
+      "supported_claims": 1,
+      "contradicted_claims": 0,
+      "not_supported_claims": 0,
+      "factual_consistency": 1.0
+    },
+    {
+      "question_uid": "e152392e929647248d77b6d3bf9f285b",
+      "doc_uid": "8f88cc6a1780582fa50c0b8318c2fb38",
+      "question": "Which foreign jurisdictions had the greatest effect on the provision for income taxes?",
+      "gold_answer": [
+        "China",
+        "Mexico"
+      ],
+      "prediction": "Based on the provided financial disclosures, Our effective tax rate decreased for the year ended December 31, 2018, compared with the prior year, primarily due to the effects of the stricter executive compensation deduction provisions of the Tax Act recorded in 2018, offset by the United States federal rate reduction of 21% versus 35% in 2017. [Doc: a7dd7ece6cae1b2aefaa138af72df8ff, Page: 1].",
+      "final_answer": "I couldn't verify this answer from the available document evidence.",
+      "is_abstained": true,
+      "abstention_reason": "IRRELEVANT_ANSWER",
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "numeric_match": 0.0,
+      "supported_claims": 1,
+      "contradicted_claims": 0,
+      "not_supported_claims": 0,
+      "factual_consistency": 1.0
+    },
+    {
+      "question_uid": "742a43606bc33b39bf3ba7861d3c34a0",
+      "doc_uid": "f1e5a9243865198ceddc74bd6a0b10b5",
+      "question": "What is the number of shares to be increased under the shareholders approved amendment?",
+      "gold_answer": [
+        "2,000,000"
+      ],
+      "prediction": "The provided evidence does not contain sufficient information to answer this question.",
+      "final_answer": "I couldn't verify this answer from the available document evidence.",
+      "is_abstained": true,
+      "abstention_reason": "INSUFFICIENT_EVIDENCE",
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "numeric_match": 0.0,
+      "supported_claims": 0,
+      "contradicted_claims": 0,
+      "not_supported_claims": 1,
+      "factual_consistency": 0.0
+    },
+    {
+      "question_uid": "100171f6bba38d5bbaa9a8cc03ea98f9",
+      "doc_uid": "69784efbba041db5d817cb59bc7305d2",
+      "question": "In which years was the equity in net earnings of affiliates recorded for?",
+      "gold_answer": [
+        "2019",
+        "2018"
+      ],
+      "prediction": "Based on the provided financial disclosures, During the year ended December 31, 2018 we recognized negative goodwill of $3.8 million in equity in net earnings of affiliates to reflect our bargain purchase of Avenir [Doc: 69784efbba041db5d817cb59bc7305d2, Page: 1].",
+      "final_answer": "Based on the provided financial disclosures, During the year ended December 31, 2018 we recognized negative goodwill of $3.8 million in equity in net earnings of affiliates to reflect our bargain purchase of Avenir [Doc: 69784efbba041db5d817cb59bc7305d2, Page: 1].",
+      "is_abstained": false,
+      "abstention_reason": null,
+      "exact_match": 1.0,
+      "token_f1": 0.0541,
+      "numeric_match": 1.0,
+      "supported_claims": 1,
+      "contradicted_claims": 0,
+      "not_supported_claims": 0,
+      "factual_consistency": 1.0
+    },
+    {
+      "question_uid": "a01a8cb8754b58eb1164c382080f56da",
+      "doc_uid": "293279f81a05c9d75adf2cc2ef06ec35",
+      "question": "What does Cash and Cash Equivalents include?",
+      "gold_answer": [
+        "cash on hand, demand deposits and short-term investments with original maturities of three months or less"
+      ],
+      "prediction": "Based on the provided financial disclosures, Cash $8.2 $9.5 [Doc: 7bc6da25adaae100b2983a53464947c1, Page: 1].",
+      "final_answer": "Based on the provided financial disclosures, Cash $8.2 $9.5 [Doc: 7bc6da25adaae100b2983a53464947c1, Page: 1].",
+      "is_abstained": false,
+      "abstention_reason": null,
+      "exact_match": 0.0,
+      "token_f1": 0.1429,
+      "numeric_match": 0.0,
+      "supported_claims": 1,
+      "contradicted_claims": 0,
+      "not_supported_claims": 0,
+      "factual_consistency": 1.0
+    },
+    {
+      "question_uid": "9320ef50557cbf45266a37af7116ebfe",
+      "doc_uid": "9acc7faf491d7a0ed461977c9e5cbcbb",
+      "question": "What is the topic of this note?",
+      "gold_answer": [
+        "Reconciliation of liabilities from financing activities"
+      ],
+      "prediction": "The provided evidence does not contain sufficient information to answer this question.",
+      "final_answer": "I couldn't verify this answer from the available document evidence.",
+      "is_abstained": true,
+      "abstention_reason": "INSUFFICIENT_EVIDENCE",
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "numeric_match": 0.0,
+      "supported_claims": 0,
+      "contradicted_claims": 0,
+      "not_supported_claims": 1,
+      "factual_consistency": 0.0
+    }
+  ]
+}

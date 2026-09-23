@@ -1,0 +1,57 @@
+{
+  "sample_size": 15,
+  "results": [
+    {
+      "retriever_name": "Dense",
+      "sample_size": 15,
+      "doc_hit_at_1": 0.4,
+      "doc_hit_at_3": 0.6,
+      "doc_hit_at_5": 0.7333,
+      "doc_mrr": 0.5189,
+      "page_hit_at_1": 0.4,
+      "page_hit_at_3": 0.6,
+      "page_hit_at_5": 0.7333,
+      "page_mrr": 0.5189,
+      "avg_latency_ms": 413.85
+    },
+    {
+      "retriever_name": "BM25",
+      "sample_size": 15,
+      "doc_hit_at_1": 0.6,
+      "doc_hit_at_3": 0.7333,
+      "doc_hit_at_5": 0.7333,
+      "doc_mrr": 0.6667,
+      "page_hit_at_1": 0.6,
+      "page_hit_at_3": 0.7333,
+      "page_hit_at_5": 0.7333,
+      "page_mrr": 0.6667,
+      "avg_latency_ms": 5.74
+    },
+    {
+      "retriever_name": "ColPali",
+      "sample_size": 15,
+      "doc_hit_at_1": 0.1333,
+      "doc_hit_at_3": 0.2,
+      "doc_hit_at_5": 0.2667,
+      "doc_mrr": 0.18,
+      "page_hit_at_1": 0.0667,
+      "page_hit_at_3": 0.2,
+      "page_hit_at_5": 0.2667,
+      "page_mrr": 0.1467,
+      "avg_latency_ms": 1388.07
+    },
+    {
+      "retriever_name": "Hybrid (RRF)",
+      "sample_size": 15,
+      "doc_hit_at_1": 0.3333,
+      "doc_hit_at_3": 0.6,
+      "doc_hit_at_5": 0.6,
+      "doc_mrr": 0.4444,
+      "page_hit_at_1": 0.3333,
+      "page_hit_at_3": 0.6,
+      "page_hit_at_5": 0.6,
+      "page_mrr": 0.4444,
+      "avg_latency_ms": 1647.55
+    }
+  ]
+}
