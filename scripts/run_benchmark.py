@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CLI script to run AuditRAG Phase 11 Evaluation & Benchmarking."""
+"""CLI script to run AuditRAG Evaluation & Benchmarking."""
 
 import argparse
 import os
@@ -17,7 +17,7 @@ from auditrag.evaluation import BenchmarkRunner
 
 
 def main():
-    parser = argparse.ArgumentParser(description="AuditRAG Phase 11 Evaluation & Benchmark CLI.")
+    parser = argparse.ArgumentParser(description="AuditRAG Evaluation & Benchmark CLI.")
     parser.add_argument(
         "--sample-size",
         "-n",
@@ -58,7 +58,7 @@ def main():
     args = parser.parse_args()
 
     print("================================================================")
-    print("        AuditRAG Phase 11: Evaluation & Benchmarking           ")
+    print("             AuditRAG: Evaluation & Benchmarking                ")
     print("================================================================\n")
 
     runner = BenchmarkRunner(output_dir=args.output_dir)

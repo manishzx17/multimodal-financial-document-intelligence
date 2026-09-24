@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CLI script demonstrating the integrated AuditRAG pipeline with Hallucination Protection for Phase 10."""
+"""CLI script demonstrating the integrated AuditRAG pipeline with Hallucination Protection."""
 
 import os
 import sys
@@ -18,7 +18,7 @@ from auditrag.pipeline import AuditRAGPipeline
 
 
 def main():
-    parser = argparse.ArgumentParser(description="AuditRAG Phase 10 — Pipeline & Hallucination Protection CLI.")
+    parser = argparse.ArgumentParser(description="AuditRAG — Pipeline & Hallucination Protection CLI.")
     parser.add_argument(
         "--query",
         "-q",
